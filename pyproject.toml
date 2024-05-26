@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "stock-analytics-zoomcamp"
+version = "0.1.0"
+description = ""
+authors = ["alewieland <alexander.wieland.aw@gmail.com>"]
+readme = "README.md"
+packages = [{include = "stock_analytics_zoomcamp"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.15"
+pandas = "^2.2.2"
+yfinance = "^0.2.37"
+jupyter = "^1.0.0"
+lab = "^8.1"
+plotly = "^5.21.0"
+pandas-datareader = "^0.10.0"
+yahoo-earnings-calendar = "^0.6.0"
+ta-lib = "^0.4.28"
+pyportfolioopt = "^1.5.5"
+scikit-learn = "^1.4.2"
+seaborn = "^0.13.2"
+pyarrow = "^16.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
